@@ -63,7 +63,7 @@ class AmazonAgain
         //Click the Sign-In button
         driver.FindElement(By.Id("signInSubmit")).Click();
 
-        //Give it some time to load
+        
         Thread.Sleep(5000);
 
         driver.Quit();
